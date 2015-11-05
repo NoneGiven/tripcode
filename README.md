@@ -4,10 +4,12 @@ Generates tripcodes (non-secure) that match those generated on 4chan, guaranteed
 ## some examples
 * `a -> !ZnBI2EKkq.`
 * `¥ -> !9xUxYS2dlM`
-  * replaced with a single character (`\`)
+ * replaced with a single character (`\`)
 * `\ -> !9xUxYS2dlM`
-  * same as `¥`
+ * same as `¥`
 * `» -> !cPUZU5OGFs`
-  * would be transliterated to multiple characters (`>>`); instead replaced with a single `?`
+ * would be transliterated to multiple characters (`>>`); instead replaced with a single `?`
 * `? -> !cPUZU5OGFs`
-  * same as `»`
+ * same as `»`
+* `& -> !MhCJJ7GVT.`
+ * replaced with an HTML entity (`&amp;`)
