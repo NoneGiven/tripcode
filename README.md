@@ -1,6 +1,9 @@
 #tripcode
 Generates tripcodes (non-secure) that match those generated on 4chan, guaranteed 100% accurate or your money back!
 
+## reminder
+Only the first 8 characters of the input affect the generated tripcode.
+
 ## some examples
 * `a -> !ZnBI2EKkq.`
 * `¥ -> !9xUxYS2dlM`
@@ -13,3 +16,5 @@ Generates tripcodes (non-secure) that match those generated on 4chan, guaranteed
  * same as `»`
 * `& -> !MhCJJ7GVT.`
  * replaced with an HTML entity (`&amp;`)
+* `&amp; -> !QfHq1EEpoQ`
+ * the `&` is replaced and the rest remains, making the 9-character string `&amp;amp;`
