@@ -1,3 +1,4 @@
+<?php
 function error_handler($severity, $message, $filename, $line) {
     if ($severity > 0) {
         throw new ErrorException($message, 0, $severity, $filename, $line);
@@ -25,3 +26,4 @@ function make_tripcode($pass) {
 }
 
 set_error_handler("error_handler"); // need to catch iconv's conversion failure E_NOTICE
+?>
