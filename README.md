@@ -1,4 +1,4 @@
-#tripcode
+# tripcode
 Generates tripcodes (non-secure) that match those generated on 4chan, guaranteed 100% accurate or your money back!
 
 ## reminder
